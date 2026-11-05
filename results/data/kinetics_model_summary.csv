@@ -1,0 +1,5 @@
+Model,Equation,Parameters,R_squared,Transport Mechanism
+Higuchi,F = K_H * t^(0.5),K_H = 0.3728,0.7287,Pure Fickian diffusion from matrix
+Korsmeyer-Peppas,F = K_KP * t^n,"K_KP = 0.2034, n = 1.3837",0.9795,Anomalous transport (Case II erosion)
+Hixson-Crowell,(1-F)^(1/3) = 1 - K_HC * t,K_HC = 0.1603,0.6639,Dissolution from shrinking sphere diameter
+First-Order,F = 1 - exp(-k1 * t),k1 = 0.3862,0.8831,Concentration-gradient driven release
